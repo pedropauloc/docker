@@ -1,0 +1,16 @@
+# docker container run hello-world
+# docker image ls
+# docker ps
+# docker container ls
+# docker container ls -a
+# docker container run -ti centos:7
+# docker container run -ti ubuntu
+# docker container -d nginx (Rodar em modo Deamon)
+# docker container attach [CONTAINER ID]
+# docker container exec -ti [CONTAINER ID] [COMANDO] (Executa o comando dentro do container)
+	- docker container exec -ti 7f10f0e30bb8 bash
+# docker container start [CONTAINER ID]
+# docker container stop [CONTAINER ID]
+# docker container restart [CONTAINER ID]
+# docker container pause [CONTAINER ID]
+# docker container unpause [CONTAINER ID]
